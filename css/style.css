@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  font-family: "Archivo Black", sans-serif;
+}
+p {
+  font-family: "", sans-serif;
+}
+.gradient-background {
+  background: linear-gradient(300deg, #00ccff, #663edd, #2a31fa);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* TOP CONTAINER */
+.top-container {
+  padding: 20px;
+}
+/* NAME CONTAINER*/
+.name-container {
+  text-align: center;
+  color: rgb(88, 174, 240);
+  padding: 20px;
+  font-family: "Berkshire Swash", sans-serif;
+}
+.name-container h1 {
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+.titr {
+  color: rgb(88, 174, 240);
+  font-family: "Archivo Black", sans-serif;
+}
+/* CLOUD ICON */
+.bottom-cloud {
+  margin-left: 70%;
+}
+.top-cloud {
+  margin-left: 10%;
+}
+/* SECTION MOAREFI */
+.moarefi {
+  margin-top: 100px;
+}
+.container-moarefi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+.mahdi-img {
+  height: 200px;
+  border-radius: 50%;
+}
+/* SECTION SKILLS */
+.skills {
+  padding: 0px 60px;
+  margin-top: 100px;
+}
+.skills h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.skills-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 50px;
+  gap: 10px;
+  text-align: left;
+}
+.container-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.img-item {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+/* SECTION CONTACT */
+.container-contact {
+  margin-top: 200px;
+  padding: 50px;
+  text-align: center;
+}
+.container-contact .contact-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.contact-btn {
+  background-color: rgb(88, 174, 240);
+  padding: 8px;
+  border-radius: 8px;
+  color: white;
+}
+/* FOOTER */
+.footer {
+  margin-top: 50px;
+  padding: 60px 0px;
+}
+.footer .footer-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.footer .footer-list li {
+  font-weight: bold;
+  font-size: large;
+  font-family: "Archivo Black", sans-serif;
+}
+.footer .container-footer .copyright {
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(226, 226, 226);
+  font-size: small;
+  font-family: "Archivo Black", sans-serif;
+}
